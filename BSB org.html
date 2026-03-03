@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Futbol Haqida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <header>
+    <h1>⚽ Futbol Haqida</h1>
+    <nav>
+      <a href="#asosiy">Asosiy</a>
+      <a href="#jadval">Jadval</a>
+      <a href="#galereya">Galereya</a>
+      <a href="#aloqa">Aloqa</a>
+    </nav>
+  </header>
+
+  <section id="asosiy">
+
+    <table class="hero-table">
+      <tr>
+
+        <td class="rasm-ustun">
+          <img src="cristiano.jpg" alt="Cristiano Ronaldo" />
+          <p class="ism">⭐ Cristiano Ronaldo</p>
+        </td>
+
+        <td class="matn-ustun">
+          <h2>Futbol — <span>Hayot Tarzimiz</span></h2>
+          <p>Futbol dunyodagi eng mashhur sport turidir. Har kuni millionlab insonlar futbol o'ynaydi yoki tomosha qiladi.</p>
+          <p>Futbol 1863-yilda Angliyada rasman qoidalar bilan belgilangan. Bugun 200 dan ortiq mamlakatda o'ynaladi.</p>
+
+          <table class="stat-table">
+            <tr>
+              <td class="stat-karta">
+                <p class="son">200+</p>
+                <p class="nom">Mamlakat</p>
+              </td>
+              <td class="stat-karta">
+                <p class="son">4B</p>
+                <p class="nom">Muxlislar</p>
+              </td>
+              <td class="stat-karta">
+                <p class="son">1863</p>
+                <p class="nom">Asos Yil</p>
+              </td>
+              <td class="stat-karta">
+                <p class="son">900+</p>
+                <p class="nom">CR7 Gollar</p>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+  </section>
+
+
+  <section id="jadval">
+    <h2>Men Yoqtirgan Klublar</h2>
+    <p class="kichik-yozuv">Top 5 — Azatbek tanloviga ko'ra</p>
+
+    <table class="klub-jadval">
+      <thead>
+        <tr>
+          <th>O'rin</th>
+          <th>Klub</th>
+          <th>O'yinlar</th>
+          <th>G'alabalar</th>
+          <th>Ballar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🥇 1</td>
+          <td>👑 Real Madrid</td>
+          <td>34</td>
+          <td>27</td>
+          <td>86</td>
+        </tr>
+        <tr>
+          <td>🥈 2</td>
+          <td>🔵 Barcelona</td>
+          <td>34</td>
+          <td>25</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>🥉 3</td>
+          <td>🔴 Bavariya</td>
+          <td>34</td>
+          <td>24</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>⚫ Manchester United</td>
+          <td>34</td>
+          <td>21</td>
+          <td>68</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>🖤 AC Milan</td>
+          <td>34</td>
+          <td>19</td>
+          <td>62</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+
+
+  <section id="galereya">
+    <h2>Fotogalereya</h2>
+    <p class="kichik-yozuv">Eng yaxshi futbol lahzalari</p>
+
+    <table class="galereya-jadval">
+      <tr>
+        <td class="tort">⚽<span>Gol Lahzasi</span></td>
+        <td class="tort">🏆<span>Chempionlik</span></td>
+        <td class="tort">🥅<span>Darvoza Oldida</span></td>
+      </tr>
+      <tr>
+        <td class="tort">👟<span>Futbol Poyabzal</span></td>
+        <td class="tort">🎽<span>Jamoa Formasi</span></td>
+        <td class="tort">🌍<span>Jahon Chempionati</span></td>
+      </tr>
+    </table>
+
+  </section>
+
+
+  <section id="aloqa">
+    <h2>Biz Bilan Bog'laning</h2>
+    <p class="kichik-yozuv">Fikr va takliflaringizni yuboring</p>
+
+    <div class="forma">
+
+      <label>Ismingiz:</label>
+      <input type="text" id="ism" placeholder="Masalan: Azatbek" />
+
+      <label>Email:</label>
+      <input type="email" id="email" placeholder="email@gmail.com" />
+
+      <label>Xabaringiz:</label>
+      <textarea id="xabar" placeholder="Xabaringizni yozing..."></textarea>
+
+      <button onclick="yuborish()">📨 Yuborish</button>
+
+      <p id="muvaffaqiyat">✅ Xabar yuborildi!</p>
+
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>⚽ Futbol Haqida © 2026</p>
+    <p class="muallif">created by <span>Azatbek</span></p>
+  </footer>
+
+  
+      <form>
+        <fieldset>
+            <legend>Jeke maǵlıwmatlar</legend>
+            <label for="ati">Atı:</label>
+            <input type="text" id="ati" name="ati"><br><br>
+
+            <label for="familiya">Familiya:</label>
+            <input type="text" id="familiya" name="familiya"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Baylanıs maǵlıwmatları</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="tel">Telefon:</label>
+            <input type="tel" id="tel" name="tel">
+        </fieldset>
+        <br>
+        <input type="submit" value="Jiberiw">
+      </form>
+
+</body>
+</html>
